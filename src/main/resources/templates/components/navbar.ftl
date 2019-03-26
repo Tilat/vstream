@@ -1,59 +1,32 @@
-<nav class="ck rj aeq ro vq app-navbar">
-    <button class="re rh ayd" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="rf"></span>
+<nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <a class="navbar-brand" href="#">Navbar</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarsExampleDefault" aria-controls="navbarsExampleDefault" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
     </button>
 
-    <a class="e" href="index.html">
-        <img src="assets/img/brand-white.png" alt="brand">
-    </a>
-
-    <div class="collapse f" id="navbarResponsive">
-        <ul class="navbar-nav ain">
-            <li class="qx active">
-                <a class="qv" href="index.html">Home <span class="aet">(current)</span></a>
+    <div class="collapse navbar-collapse" id="navbarsExampleDefault">
+        <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+                <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
             </li>
-            <li class="qx">
-                <a class="qv" href="profile/index.html">Profile</a>
+            <li class="nav-item">
+                <a class="nav-link" href="#">Link</a>
             </li>
-            <li class="qx">
-                <a class="qv" data-toggle="modal" href="#msgModal">Messages</a>
+            <li class="nav-item">
+                <a class="nav-link disabled" href="#">Disabled</a>
             </li>
-            <li class="qx">
-                <a class="qv" href="docs/index.html">Docs</a>
+            <li class="nav-item dropdown">
+                <a class="nav-link dropdown-toggle" href="#" id="dropdown01" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</a>
+                <div class="dropdown-menu" aria-labelledby="dropdown01">
+                    <a class="dropdown-item" href="#">Action</a>
+                    <a class="dropdown-item" href="#">Another action</a>
+                    <a class="dropdown-item" href="#">Something else here</a>
+                </div>
             </li>
-
-            <li class="qx ayd">
-                <a class="qv" href="notifications/index.html">Notifications</a>
-            </li>
-            <li class="qx ayd">
-                <a class="qv" data-action="growl">Growl</a>
-            </li>
-            <li class="qx ayd">
-                <a class="qv" href="login/index.html">Logout</a>
-            </li>
-
         </ul>
-
-        <form class="pf aec ayc">
-            <input class="form-control" type="text" data-action="grow" placeholder="Search">
+        <form class="form-inline my-2 my-lg-0">
+            <input class="form-control mr-sm-2" type="text" placeholder="Search" aria-label="Search">
+            <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
         </form>
-
-        <ul id="#js-popoverContent" class="nav navbar-nav aec afh ayc">
-            <li class="qx">
-                <a class="g qv" href="notifications/index.html">
-                    <span class="h bbf"></span>
-                </a>
-            </li>
-            <li class="qx afx">
-                <button class="cg bqv bqw bpq" data-toggle="popover" data-original-title="" title="">
-                    <img class="wg" src="assets/img/avatar-dhg.png">
-                </button>
-            </li>
-        </ul>
-
-        <ul class="nav navbar-nav hidden-xs-up" id="js-popoverContent">
-            <li class="qx"><a class="qv" href="#" data-action="growl">Growl</a></li>
-            <li class="qx"><a class="qv" href="login/index.html">Logout</a></li>
-        </ul>
     </div>
 </nav>
