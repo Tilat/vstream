@@ -1,6 +1,6 @@
-CREATE USER apiserver WITH ENCRYPTED PASSWORD 'api-server';
+CREATE USER vstream WITH ENCRYPTED PASSWORD 'vstream';
 
-CREATE DATABASE apiserver_db;
+CREATE DATABASE vstream;
 
-GRANT ALL PRIVILEGES ON DATABASE apiserver_db TO apiserver;
+GRANT ALL PRIVILEGES ON DATABASE vstream TO vstream;
 
